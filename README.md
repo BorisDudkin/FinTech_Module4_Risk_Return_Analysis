@@ -1,6 +1,6 @@
 # Risk Return Analysis
 
-### Risk Return Analysis application provides asset managers with an efficient and easy way to select a fund with the most investment potential based on key risk-management metrics: the daily returns, standard deviations, Sharpe ratios, and betas.
+### Risk Return Analysis application provides asset managers with an efficient and easy way to select a fund with the most investment potential based on key risk-management metrics: returns, risks, risk-return analysis, and diversification benefits.
 
 ---
 
@@ -26,16 +26,17 @@
 
 _Prerequisites_
 
-pandas is a Python package that provides fast, flexible, and expressive data structures designed to make working with large sets of data easy and intuitive
+Pandas and Numpy are Python packages that provides fast, flexible, and expressive data structures designed to make working with large sets of data easy and intuitive.
 
 - [pandas](https://github.com/pandas-dev/pandas) - For the documentation, installation guide and dependencies.
+- [numpy](https://numpy.org/doc/) - For the NumPy manual.
 - [matplotlib ](https://matplotlib.org/) - For guidance on how to start visualization, interactive visualization, styles and layouts customazation.
 
 ---
 
 ## Installation Guide
 
-Jupyter lab is a preferred software to work with Crypto Arbitrage application.<br/> Jupyter lab is a part of the **[anaconda](https://www.anaconda.com/)** distribution package and therefore it is recommended to download **anaconda** first.<br/> Once dowloaded, run the following command in your terminal to lauch Jupyter lab:
+Jupyter lab is a preferred software to work with Risk Return Analysis application.<br/> Jupyter lab is a part of the **[anaconda](https://www.anaconda.com/)** distribution package and therefore it is recommended to download **anaconda** first.<br/> Once dowloaded, run the following command in your terminal to lauch Jupyter lab:
 
 ```python
 jupyter lab
@@ -43,16 +44,18 @@ jupyter lab
 
 Before using the application first install the following dependencies by using your terminal:
 
-To install pandas run:
+To install pandas and NumPy run:
 
 ```python
 #  PuPi
 pip install pandas
+pip install numpy
 ```
 
 ```python
 # or conda
 conda install pandas
+conda install numpy
 ```
 
 ---
@@ -61,7 +64,7 @@ conda install pandas
 
 > Application summary<br/>
 
-Risk Return Analysis application takes you through the following stages of the quantitative analysis:
+Risk Return Analysis application takes you through the following stages of the quantitative analysis for the stock/fund selection:
 
 - Performans
 - Volatility
@@ -70,20 +73,15 @@ Risk Return Analysis application takes you through the following stages of the q
 - Portfolio diversification
   <br/>
 
-At the end of the analysis the investment opportunities are identified. Finally a report summarizing the findings is produced. <br/>
+At the end of the analysis the investment opportunities are identified. <br/>
 
 > Getting started<br/>
 
-- To use Risk Return Analysis application first clone the repository to your PC. The repository comes with **risk_return_analysis.ipynb** application, as well as `static_data.py` for analysis customization and a sample of data files covering BTC price data on Coinbase and Bitstamp observed during Q1 2018. <br/>
+- To use Risk Return Analysis application first clone the repository to your PC. The repository comes with **risk_return_analysis.ipynb** application, as well as a sample of data file covering the NAV of Funds to be analysed and the closing price of S&P 500 for the period of Oct 2014- Sep 2020. <br/>
 - Open `Jupyter lab` as per the instructions in the [Installation Guide](#installation-guide) to run the application.<br/>
-- Next, save your data files in the **Resources/** directory.<br/>
-- Open `static_data.py` in your text editor and:
-  - Provide file names for your analysis
-  - Additional customization options include the selection of the Price Column and specific dates for analyzes.
-
-![prices](images/static_data.PNG)
-
-<br/> At the very end of the application you can find a report drawn based on the quantitiative analyses performed. It can serve as a sample for your analysis and final report .
+- Next, save your data file in the **Resources/** directory and adjust the code with your data file's name:<br/>
+  ![list](images/data_file.PNG)<br/>
+  At the very end of the application you can find a summary and recommendations drawn based on the quantitiative analyses performed. It can serve as a sample for your analysis and reporting.
 
 ---
 
