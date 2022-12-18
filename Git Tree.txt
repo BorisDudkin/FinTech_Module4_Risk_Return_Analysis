@@ -1,0 +1,9 @@
+* 	 (HEAD -> main) Summary and recommendations added to Risk Return Analysis. README Usage updated
+* 	 (origin/main, origin/HEAD) summary and conclusion added to the analysis
+* 	 Added answers to questions in Risk Return Analysis
+* 	 diversification analysis added to the Risk Returns Analysis tool
+* 	 risk-return analysis added to Risk Return Analysis
+* 	 risk analysis added to Risk and Return Analysis
+* 	 cumulative returns and 1st vol estimates added to the Risk Return Analysis
+* 	 README first version created, data with returns created in risk_return_analysis
+* 	 Initial commit
